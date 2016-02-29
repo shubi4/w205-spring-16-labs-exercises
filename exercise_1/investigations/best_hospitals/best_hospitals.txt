@@ -1,13 +1,37 @@
-The table below shows the top 10 hospitals based on overall score across all measures. This was computed by adding up the measurres' scores for each hospital, then sorting from high to low. Missing data was treated as 0.
+The 10 best hospitals by overall score:
 
-[(u'310002', (5121, (u'NEWARK BETH ISRAEL MEDICAL CENTER', u'NJ'))), 
-(u'330202', (5045, (u'KINGS COUNTY HOSPITAL CENTER', u'NY'))), 
-(u'330101', (4807, (u'NEW YORK-PRESBYTERIAN HOSPITAL', u'NY'))), 
-(u'450289', (4721, (u'HARRIS HEALTH SYSTEM', u'TX'))), (
-u'050060', (4645, (u'COMMUNITY REGIONAL MEDICAL CENTER', u'CA'))), 
-(u'320001', (4611, (u'UNM HOSPITAL', u'NM'))), 
-(u'450213', (4605, (u'UNIVERSITY HEALTH SYSTEM', u'TX'))), 
-(u'050327', (4578, (u'LOMA LINDA UNIVERSITY MEDICAL CENTER', u'CA'))), 
-(u'180067', (4519, (u'UNIVERSITY OF KENTUCKY HOSPITAL', u'KY'))), (
-u'050292', (4504, (u'RIVERSIDE COUNTY REGIONAL MEDICAL CENTER', u'CA')))]
+(5121, [u'"310002"', u'"NEWARK BETH ISRAEL MEDICAL CENTER"', u'"201 LYONS
+AVE"', u'"NEWARK"', u'"NJ"', u'"07112"', u'"ESSEX"', u'"9739267850"', u'"Acute
+Care Hospitals"', u'"Voluntary non-profit - Private"', u'"Yes"'])
+(5045, [u'"330202"', u'"KINGS COUNTY HOSPITAL CENTER"', u'"451 CLARKSON
+AVENUE"', u'"BROOKLYN"', u'"NY"', u'"11203"', u'"KINGS"', u'"7182453901"',
+u'"Acute Care Hospitals"', u'"Government - Local"', u'"Yes"'])
+(4807, [u'"330101"', u'"NEW YORK-PRESBYTERIAN HOSPITAL"', u'"525 EAST 68TH
+STREET"', u'"NEW YORK"', u'"NY"', u'"10021"', u'"NEW YORK"', u'"2127464189"',
+u'"Acute Care Hospitals"', u'"Voluntary non-profit - Private"', u'"Yes"'])
+(4721, [u'"450289"', u'"HARRIS HEALTH SYSTEM"', u'"2525 HOLLY HALL"',
+u'"HOUSTON"', u'"TX"', u'"77054"', u'"HARRIS"', u'"7135666417"', u'"Acute Care
+Hospitals"', u'"Government - Local"', u'"Yes"'])
+(4645, [u'"050060"', u'"COMMUNITY REGIONAL MEDICAL CENTER"', u'"2823 FRESNO
+STREET"', u'"FRESNO"', u'"CA"', u'"93715"', u'"FRESNO"', u'"5594596000"',
+u'"Acute Care Hospitals"', u'"Voluntary non-profit - Private"', u'"Yes"'])
+(4611, [u'"320001"', u'"UNM HOSPITAL"', u'"2211 LOMAS BOULEVARD NE"',
+u'"ALBUQUERQUE"', u'"NM"', u'"87106"', u'"BERNALILLO"', u'"5052722111"',
+u'"Acute Care Hospitals"', u'"Voluntary non-profit - Other"', u'"Yes"'])
+(4605, [u'"450213"', u'"UNIVERSITY HEALTH SYSTEM"', u'"4502 MEDICAL DR"',
+u'"SAN ANTONIO"', u'"TX"', u'"78229"', u'"BEXAR"', u'"2103584000"', u'"Acute
+Care Hospitals"', u'"Government - Hospital District or Authority"', u'"Yes"'])
+(4578, [u'"050327"', u'"LOMA LINDA UNIVERSITY MEDICAL CENTER"', u'"11234
+ANDERSON ST"', u'"LOMA LINDA"', u'"CA"', u'"92354"', u'"SAN BERNARDINO"',
+u'"9095584000"', u'"Acute Care Hospitals"', u'"Voluntary non-profit -
+Private"', u'"Yes"'])
+(4519, [u'"180067"', u'"UNIVERSITY OF KENTUCKY HOSPITAL"', u'"800 ROSE
+STREET"', u'"LEXINGTON"', u'"KY"', u'"40536"', u'"FAYETTE"', u'"8593235000"',
+u'"Acute Care Hospitals"', u'"Government - State"', u'"Yes"'])
+(4504, [u'"050292"', u'"RIVERSIDE COUNTY REGIONAL MEDICAL CENTER"', u'"26520
+CACTUS AVENUE"', u'"MORENO VALLEY"', u'"CA"', u'"92555"', u'"RIVERSIDE"',
+u'"9514864000"', u'"Acute Care Hospitals"', u'"Government - Local"',
+u'"Yes"'])
 
+The output from the per-measure hospital rankings were too verbose to be
+included without further processing.
